@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+#root{
+  padding: 1vw;
+}
+
+.App{
+  padding: 6vw 3vw;
+  width: 40vw;
+  margin: auto;
+  background-color: rgb(206,206,206);
+}
+.TodolistInputButtonBox{
+  padding: 1vw;
+  width: 94.2%;
+}
+.AllTodoList{
+  padding: 1vw;
+  height: 20vw;
+  overflow: auto;
+}
+.ItemButtonBox{
+  padding: 0vw;
+  display: flex;
+  width: 94.5%;
+  margin-bottom: .5vw;
+}
+.ItemBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .2vw 2vw;
+  height: 3.2vw;
+  font-size: 2vw;
+  border-radius: .5vw;
+  background-color: white;
+  color: black;
+}
+.ButtonBox{
+  padding: 0vw;
+  margin-left: .5vw;
+
+  display: flex;
+}
+.ToggleButton{
+  padding: .5vw .8vw;
+  border-radius: .5vw;
+  font-size: 2vw;
+}
+
+.InputButtonBox{
+  padding: 1vw;
+  display: flex;
+  width: 94.4%;
+  justify-content: center;
+}
+.AddItemButton{
+  padding: .4vw;
+  margin-left: .4vw;
+  width: 10%;
+  border-radius: .6vw;
+  font-size: 2.2vw;
+  font-weight: bold;
+}
+.AddItemButton:hover{
+  background-color: yellow;
+  color: blue;
+}
+.AddItemInput{
+  padding: .5vw 2vw;
+  width: 60%;
+  border-radius: .6vw;
+  font-size: 2vw;
+}
